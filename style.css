@@ -1,0 +1,123 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav {
+    background-color: black;
+}
+nav a{
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: navy;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 30px;
+    color: orange;
+    font-weight: 550;
+    border: 1px solid black;
+}
+
+nav a:hover{
+    border: 1px solid tomato;
+    background-color: white;
+    color: orangered;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+section{
+    display: flex;
+    color: white;
+    
+}
+section a{
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+section a:hover{
+    color: navy;
+    box-shadow: 10px 10px 40px 15px hotpink;
+}
+.home{
+    padding-left: 78px;
+    background-image: url(images/my-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/my-bg.jpg);
+}
+
+.home h1{
+    font-size: 40px;
+}
+.home span{
+    color: orange;
+}
+.home img{
+    width: 85%;
+    margin-top: 5px;
+}
+.half-width {
+    width: 50%;
+}
+.dreams{
+
+    background-image: url(images/SL_052021_43150_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.281) 0%,rgba(0,0,0,0.6) 100%), url(images/SL_052021_43150_03.jpg);
+    
+
+}
+.dreams img{
+    width: 80%;
+    margin-top: 100px;
+
+}
+.dreams-div-margin-fix{
+    margin-left: -80px;
+    margin-top: 140px;
+}
+.expertise{
+    background-image: url(images/hand-painted-abstract-background-watercolors-paper-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.281) 0%,rgba(0,0,0,0.6) 100%), url(images/hand-painted-abstract-background-watercolors-paper-texture.jpg);
+    margin-top: -17px;
+    
+}
+.expertise div{
+    width: 30%;
+    height: 400px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid tomato;
+    box-shadow: 10px 10px 35px 15px white;
+
+}
+.expertise-padding-fix{
+    padding-left: 5px;
+    padding-top: 50px;
+}
+center h1{
+    color: white;
+    
+}
+
+footer p{
+    margin-top: 40px;
+    text-align: center;
+}
